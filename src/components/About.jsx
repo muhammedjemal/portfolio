@@ -1,6 +1,6 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import PropTypes from "prop-types"; // Import PropTypes for validation
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -8,19 +8,19 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt
+    options={{
+      max: 45,
+      scale: 1,
+      speed: 450,
+    }}
+    className="xs:w-[250px] w-full"
+  >
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-      >
+      <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img
           src={icon}
           alt="web-development"
@@ -35,6 +35,13 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
+// PropTypes validation for ServiceCard
+ServiceCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
+
 const About = () => {
   return (
     <>
@@ -47,11 +54,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hey there! 👋 I'm Jemal, a Senior software developer. I love working on
-        a challenging and innovative project with a great team. I have been
-        working on fields like frontend, backend, API Development, Automations,
-        database designing, AI, bots, miniapps, integrations, fintech and Cloud
-        Services. Quality, scalability, and serverless magic are my specialties.
+        Hey there! 👋 {"I'm"} Jemal, a Senior software developer. I love working
+        on challenging and innovative projects with a great team. I have
+        experience in frontend, backend, API development, automation, database
+        design, AI, bots, miniapps, integrations, fintech, and cloud services.
+        Quality, scalability, and serverless magic are my specialties.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

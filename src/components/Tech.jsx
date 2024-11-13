@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants"; // Assuming technologies contains name and icon
 
