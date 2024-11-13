@@ -1,6 +1,3 @@
-import python from "../assets/tech/python.png";
-import kiyaequb from "../assets/KiyaEqub.jpg";
-
 import {
   mobile,
   backend,
@@ -28,7 +25,7 @@ const technologies = [
   },
   {
     name: "Python",
-    icon: python,
+    icon: "https://th.bing.com/th/id/R.7494e83354e2662240d06630cc31f08d?rik=9tIRLZpYS9oTfQ&pid=ImgRaw&r=0",
   },
   {
     name: "Puppeteer",
@@ -237,7 +234,7 @@ const projects = [
       },
     ],
     image: "https://assets.jiji.co.ke/static/img/no-image/share_no_image.jpeg",
-    source_code_link: "https://github.com/",
+    source_code_link: "#contact",
   },
 
   {
@@ -268,7 +265,7 @@ const projects = [
     ],
     image:
       "https://cdn.hahu.jobs/public/agency/88a7e310-2d24-11ed-ac70-a7ac4aba1a68",
-    source_code_link: "https://github.com/",
+    source_code_link: "#contact",
   },
   {
     name: "Kiya Equb",
@@ -292,8 +289,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: kiyaequb,
-    source_code_link: "https://zel-hub7.github.io/DishCatalog-API/dist/",
+    image:
+      "https://kiyaequb.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FdQGbM0DR%2Fkiya-equb2.png&w=1920&q=75",
+    source_code_link: "#contact",
   },
 ];
 
