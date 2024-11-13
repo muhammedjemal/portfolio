@@ -1,11 +1,5 @@
-import flutter from "../assets/tech/flutter.png";
-import flutterflow from "../assets/tech/FlutterFlow.png";
 import python from "../assets/tech/python.png";
-import firebase from "../assets/tech/firebase.png";
-import supabase from "../assets/tech/supabase.png";
 import kiyaequb from "../assets/KiyaEqub.jpg";
-import hub from "../assets/hub.png";
-import Spotify from "../assets/spotify.png";
 
 import {
   mobile,
@@ -13,14 +7,9 @@ import {
   creator,
   web,
   javascript,
-  html,
-  css,
   reactjs,
   git,
   figma,
-  starbucks,
-  tesla,
-  shopify,
 } from "../assets";
 
 const technologies = [
