@@ -27,28 +27,31 @@ const Navbar = () => {
           />
           <p className="text-white text-18px font-bold cursor-pointer">Jemal</p>
         </Link>
+
+        {/* Desktop Menu */}
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((Link) => (
+          {navLinks.map((link) => (
             <li
-              key={Link.id}
+              key={link.id}
               className={`${
-                active === Link.title ? "text-white" : "text-secondary"
+                active === link.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(Link.title)}
+              onClick={() => setActive(link.title)}
             >
-              <a href={`#${Link.id}`}>{Link.title}</a>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
           <li>
             <button
               className="bg-tertiary py-2 px-4 rounded-xl outline-none w-fit text-white shadow-md shadow-primary"
-              onClick={() => window.open("", "_blank")}
+              onClick={() => window.open("/cv.pdf", "_blank")}
             >
               View Full Resume
             </button>
           </li>
         </ul>
 
+        {/* Mobile Menu Toggle */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -57,27 +60,38 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
+          {/* Mobile Menu */}
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0
-          mx-4 my-2 min-w-[140px]`}
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px]`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
-              {navLinks.map((Link) => (
+              {navLinks.map((link) => (
                 <li
-                  key={Link.id}
+                  key={link.id}
                   className={`${
-                    active === Link.title ? "text-white" : "text-secondary"
+                    active === link.title ? "text-white" : "text-secondary"
                   } font-poppins hover:text-white text-[16px] font-medium cursor-pointer`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(Link.title);
+                    setActive(link.title);
                   }}
                 >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li>
+                <button
+                  className="text-secondary font-poppins hover:text-white text-[16px] font-medium cursor-pointer"
+                  onClick={() => {
+                    setToggle(false); // close the menu after clicking
+                    window.open("/cv.pdf", "_blank");
+                  }}
+                >
+                  Download CV
+                </button>
+              </li>
             </ul>
           </div>
         </div>
