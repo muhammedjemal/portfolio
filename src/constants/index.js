@@ -216,10 +216,7 @@ const projects = [
         name: "WebSockets",
         color: "green-text-gradient",
       },
-      {
-        name: "Docker",
-        color: "pink-text-gradient",
-      },
+
       {
         name: "Docker",
         color: "pink-text-gradient",
