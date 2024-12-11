@@ -21,7 +21,7 @@ const technologies = [
   {
     name: "Nuxt.js",
     // icon: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3254152/nuxt-icon-md.png",
-    icon: "https://seeklogo.com/images/N/nuxt-logo-1CCC5F38FD-seeklogo.com.png",
+    icon: "/nuxt.svg",
   },
   {
     name: "Python",
@@ -45,11 +45,11 @@ const technologies = [
   },
   {
     name: "Tailwind CSS",
-    icon: "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
+    icon: "/tailwindcss.svg",
   },
   {
     name: "Framer-Motion",
-    icon: "https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png",
+    icon: "/framer-motion.svg",
   },
   {
     name: "JavaScript",
@@ -69,7 +69,7 @@ const technologies = [
   },
   {
     name: "Zod",
-    icon: "https://seeklogo.com/images/Z/zod-logo-B57E684330-seeklogo.com.png",
+    icon: "/zod.webp",
   },
 ];
 
