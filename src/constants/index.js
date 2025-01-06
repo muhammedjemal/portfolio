@@ -29,7 +29,7 @@ const technologies = [
   },
   {
     name: "Puppeteer",
-    icon: "https://www.pngrepo.com/download/354228/puppeteer.png",
+    icon: "/puppeteer.png",
   },
   {
     name: "React Native",
