@@ -12,11 +12,11 @@ import {
 const technologies = [
   {
     name: "TypeScript",
-    icon: "https://essenceofchaos.github.io/images/typescript.png",
+    icon: "/ts.png",
   },
   {
     name: "Next.js",
-    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
+    icon: "/nextjs.png",
   },
   {
     name: "Nuxt.js",
@@ -33,7 +33,7 @@ const technologies = [
   },
   {
     name: "React Native",
-    icon: "https://youteam.io/blog/wp-content/uploads/2021/11/react-native-logo.png",
+    icon: "/reactnative.png",
   },
   {
     name: "PostgreSQL",
@@ -90,19 +90,19 @@ const navLinks = [
 
 const services = [
   {
-    title: "Web Development",
+    title: "Web & Mobile App Development",
     icon: web,
   },
   {
-    title: "Mobile Apps",
+    title: "System Quality Analysis",
     icon: mobile,
   },
   {
-    title: "Backend Development",
+    title: "Backend Systems & API Development",
     icon: backend,
   },
   {
-    title: "Automation and Database",
+    title: "Database Systems & Process Automation",
     icon: creator,
   },
 ];
