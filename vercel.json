@@ -14,7 +14,7 @@
       "src": "/assets/(.*)",
       "dest": "/assets/$1"
     }
-  ], 
+  ],
   "redirects": [
     {
       "source": "/github.com/muhammedjemal",
@@ -22,12 +22,12 @@
       "permanent": true
     },
     {
-      "source": "/leetcode.com/jemsa12", 
+      "source": "/leetcode.com/jemsa12",
       "destination": "https://leetcode.com/jemsa12/",
       "permanent": true
     },
     {
-      "source": "/linkedin.com/in/jemal-muhammed-2896a433b", 
+      "source": "/linkedin.com/in/jemal-muhammed-2896a433b",
       "destination": "https://linkedin.com/in/jemal-muhammed-2896a433b/",
       "permanent": true
     }
