@@ -13,25 +13,6 @@
     {
       "src": "/assets/(.*)",
       "dest": "/assets/$1"
-    },
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
-  ],
-  "redirects": [
-    {
-      "source": "/github.com/muhammedjemal",
-      "destination": "https://github.com/muhammedjemal",
-      "permanent": true
-    },
-    {
-      "source": "/leetcode.com/jemsa12",
-      "destination": "https://leetcode.com/jemsa12/",
-      "permanent": true
-    },
-    {
-      "source": "/linkedin.com/in/jemal-muhammed-2896a433b",
-      "destination": "https://linkedin.com/in/jemal-muhammed-2896a433b/",
-      "permanent": true
     }
   ]
 }
