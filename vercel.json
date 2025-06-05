@@ -14,7 +14,7 @@
       "src": "/assets/(.*)",
       "dest": "/assets/$1"
     }
-  ],
+  ], 
   "redirects": [
     {
       "source": "/github.com/muhammedjemal",
