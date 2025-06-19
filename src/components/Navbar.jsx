@@ -44,7 +44,8 @@ const Navbar = () => {
           <li>
             <button
               className="bg-tertiary py-2 px-4 rounded-xl outline-none w-fit text-white shadow-md shadow-primary"
-              onClick={() => window.open("/cv.pdf", "_blank")}
+              // onClick={() => window.open("/cv.pdf", "_blank")}
+              onClick={() => window.open("https://t.me/maverick_inc", "_blank")}
             >
               View Full Resume
             </button>
