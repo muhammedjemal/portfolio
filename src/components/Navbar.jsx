@@ -86,7 +86,8 @@ const Navbar = () => {
                   className="text-secondary font-poppins hover:text-white text-[16px] font-medium cursor-pointer"
                   onClick={() => {
                     setToggle(false); // close the menu after clicking
-                    window.open("/cv.pdf", "_blank");
+                    // window.open("/cv.pdf", "_blank"); // old
+                    window.open("https://t.me/maverick_inc", "_blank"); // new
                   }}
                 >
                   Download CV
