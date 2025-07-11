@@ -11,6 +11,10 @@ import {
 
 const technologies = [
   {
+    name: "Flutter",
+    icon: "/flutter.png",
+  },
+  {
     name: "TypeScript",
     icon: "/ts.png",
   },
@@ -30,10 +34,6 @@ const technologies = [
   {
     name: "Puppeteer",
     icon: "/puppeteer.png",
-  },
-  {
-    name: "React Native",
-    icon: "/reactnative.png",
   },
   {
     name: "PostgreSQL",
@@ -90,7 +90,7 @@ const navLinks = [
 
 const services = [
   {
-    title: "Web & Mobile App Development",
+    title: "Mobile App Development",
     icon: web,
   },
   {
