@@ -10,13 +10,13 @@ import {
 } from "../assets";
 
 const technologies = [
-  {
-    name: "Flutter",
-    icon: "/flutter.png",
-  },
+
   {
     name: "TypeScript",
     icon: "/ts.png",
+  },  {
+    name: "React Native",
+    icon: "/reactnative.png",
   },
   {
     name: "Next.js",
@@ -90,6 +90,10 @@ const navLinks = [
 
 const services = [
   {
+    title: "Backend Systems & API Development",
+    icon: backend,
+  },
+  {
     title: "Mobile App Development",
     icon: web,
   },
@@ -97,10 +101,7 @@ const services = [
     title: "System Quality Analysis",
     icon: mobile,
   },
-  {
-    title: "Backend Systems & API Development",
-    icon: backend,
-  },
+
   {
     title: "Database Systems & Process Automation",
     icon: creator,
