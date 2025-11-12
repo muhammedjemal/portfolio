@@ -139,7 +139,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Kiya Equb",
-    icon: "https://kiyaequb.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FdQGbM0DR%2Fkiya-equb2.png&w=128&q=75",
+    icon: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/c83e45deeea9444a8b4b65eb50472371?ik-sanitizeSvg=true",
     iconBg: "#383E56",
     date: "Jan 2023 - Current",
     points: [
@@ -288,7 +288,7 @@ const projects = [
       },
     ],
     image:
-      "https://kiyaequb.com/_next/image?url=https%3A%2F%2Fi.postimg.cc%2FdQGbM0DR%2Fkiya-equb2.png&w=1920&q=75",
+      "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/c83e45deeea9444a8b4b65eb50472371?ik-sanitizeSvg=true",
     source_code_link: "#contact",
   },
 ];
